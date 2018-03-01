@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteNETSharedProject.Droi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteNETSharedProject.iOS", "iOS\SQLiteNETSharedProject.iOS.csproj", "{2A991FA3-7705-45A4-BD8B-1E339EA89193}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest1", "UITest1\UITest1.csproj", "{91192401-D00F-4333-8973-588E8D24B7CC}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SQLiteNETSharedProject\SQLiteNETSharedProject.projitems*{2a991fa3-7705-45a4-bd8b-1e339ea89193}*SharedItemsImports = 4
@@ -49,6 +51,18 @@ Global
 		{2A991FA3-7705-45A4-BD8B-1E339EA89193}.Release|iPhone.Build.0 = Release|iPhone
 		{2A991FA3-7705-45A4-BD8B-1E339EA89193}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{2A991FA3-7705-45A4-BD8B-1E339EA89193}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Release|iPhone.Build.0 = Release|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{91192401-D00F-4333-8973-588E8D24B7CC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
