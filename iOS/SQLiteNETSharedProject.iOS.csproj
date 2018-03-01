@@ -60,8 +60,9 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: XiaoJun Li (692347DVV6)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>Peter's First Provisioning Profile</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.AppCenter, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">

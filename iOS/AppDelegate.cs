@@ -1,5 +1,8 @@
 ﻿using Foundation;
 using UIKit;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace SQLiteNETSharedProject.iOS
 {
@@ -13,8 +16,16 @@ namespace SQLiteNETSharedProject.iOS
 			public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 			{
 				global::Xamarin.Forms.Forms.Init();
-				LoadApplication(new App());
-				return base.FinishedLaunching(app, options);
+
+                AppCenter.Start("ae827c97-7c00-4fe2-8092-6fdbaa84d288",
+                   typeof(Analytics), typeof(Crashes));
+
+                LoadApplication(new App());
+
+                Analytics.TrackEvent("SQLite App about to be started! 哈哈哈");
+
+
+                return base.FinishedLaunching(app, options);
 			}
 		}
 	}
