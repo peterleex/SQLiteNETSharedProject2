@@ -20,7 +20,7 @@ namespace SQLiteNETSharedProject.Droid
 		{
 			base.OnCreate (bundle);
 
-            AppCenter.Start("ee581d3b-8e2a-4641-906d-ff06fca8aeca",
+            AppCenter.Start("d5a86035-ea3e-4581-8be3-530e73cd379d",
                    typeof(Analytics), typeof(Crashes));
 
             global::Xamarin.Forms.Forms.Init (this, bundle);
